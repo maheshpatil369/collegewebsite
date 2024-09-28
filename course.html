@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logodone.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+<section class="course">
+    <h1>Courses We Offer</h1>
+   
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>courses usually refer to courses that are at a level above basic or introductory courses but below advanced or specialized courses. They may cover a wide range of subjects depending on the college's offerings, such as intermediate mathematics, intermediate language studies, intermediate sciences, and more. 
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>level courses are usually listed under the academic programs section. These courses are designed to provide in-depth knowledge and skills in a specific field of study. You can find details about undergraduate (Bachelor's) and postgraduate (Master's) degree programs in the website. The information typically includes program descriptions,career prospects. 
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>courses in college include Master's degrees, Ph.D. programs, and certifications. They have specializations like Business, Computer Science. Admission needs good grades, maybe exams. Programs have structure, projects, internships. After, jobs and further studies are options. Alumni stories show success.</p>
+        </div>
+    </div>
+</section>
+<!---------- Facilities ---------->
+    
+<section class="facility">
+    <h1>Our Facilities</h1>
+    <p>Sprawling new state of the art campus, conveniently located in the heart of Navi Mumbai</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>It provide access to 860 international Full-Text Engineering & Technology E-journals. It also offers bibliographic details of articles which can be search under title, author, compiler, name of the periodical and subject. At present database contains 11,24,250 records.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p> college are great for sports and recreation. They have facilities for various activities like football, basketball, and more. Students can stay active and unwind by playing games with friends. It's a fun way to relax and stay fit while on campus.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>place where students can grab a quick bite or a meal. It's important to have healthy food options available in the canteen to promote student well-being. Having healthy options can help students maintain a balanced diet and support their overall health and academic performance.</p>
+            </div>
+        </div>
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Copyright © 2023. All rights reserved | Developed by Emaginationz Technologies</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
